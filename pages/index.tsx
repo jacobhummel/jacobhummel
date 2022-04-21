@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Container from "components/Container";
+import Link from "next/link";
+import Button from "components/Button";
 
 export default function Home() {
   return (
@@ -15,13 +17,16 @@ export default function Home() {
               className="rounded-full"
             />
           </div>
-          <div className="flex flex-col">
-            <h1 className="text-2xl md:text-3xl text-black dark:text-white">
-              I&apos;m <strong>Jacob Hummel</strong>, a React/React Native
-              front-end software engineer with a UX background. Located in
-              Minneapolis, MN.
-            </h1>
-          </div>
+          <h1 className="text-2xl md:text-3xl text-black dark:text-white">
+            I&apos;m <strong>Jacob Hummel</strong>, a React/React Native
+            front-end software engineer with a UX background. Located in
+            Minneapolis, MN.
+          </h1>
+        </div>
+        <div className="flex flex-col items-center sm:items-start mt-6">
+          <Link href="resume.pdf" passHref>
+            <Button>Download Resume</Button>
+          </Link>
         </div>
       </div>
     </Container>
