@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 interface Props {
   className?: string;
   children: React.ReactNode;
@@ -5,13 +7,13 @@ interface Props {
 }
 
 export default function Button({ href, className, children }: Props) {
-  const btnClass = `bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded ${className}`;
+  const btnClass = `bg-transparent hover:bg-white text-white font-semibold hover:text-black py-2 px-4 border border-white hover:border-transparent rounded ${className}`;
 
   if (href) {
     return (
-      <a href={href} className={btnClass}>
-        {children}
-      </a>
+      <Link href={href}>
+        <a className={btnClass}>{children}</a>
+      </Link>
     );
   }
 
