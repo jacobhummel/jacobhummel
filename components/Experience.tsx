@@ -1,5 +1,6 @@
 import { experience } from "data/experience";
 import Image from "next/image";
+import Link from "./Link";
 
 export default function Experience() {
   return (
@@ -20,16 +21,11 @@ export default function Experience() {
                   className="rounded-full"
                 />
               </span>
-              <h3 className="flex items-center mb-1 text-lg text-gray-900">
+              <h3 className="flex flex-col sm:flex-row sm:items-center mb-1 text-lg text-gray-900">
                 <span className="font-semibold mr-1">{item.title}</span>
-                <a
-                  href={item.link}
-                  className="text-neutral-600 hover:text-blue-800 hover:underline"
-                >
-                  at {item.name}
-                </a>
+                <Link href={item.link}>at {item.name}</Link>
                 {item.active && (
-                  <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
+                  <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 my-2 sm:ml-3 rounded max-w-[80px]">
                     Current
                   </span>
                 )}

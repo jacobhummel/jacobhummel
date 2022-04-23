@@ -1,18 +1,42 @@
+import Link from "components/Link";
+
 export const experience = [
   {
-    name: "Target",
+    name: "Target – Apply for RedCard",
     title: "Sr. Software Engineer",
-    duration: "Mar 2017 - Present",
+    duration: "APR 2021 - PRESENT",
     active: true,
     icon: "/static/images/experience/target.jpg",
     link: "https://www.target.com",
-    description:
-      "Develop internal web portals and reusable components using React, TypeScript, SharePoint Framework, Sass, Azure Functions, and PowerShell.  Establish development standards on an evergreen cloud platform in SharePoint Online. Collaboration with front-end engineers, a UX designer, Accessibility team, product owner, and stakeholders.",
+    description: (
+      <>
+        Rewriting <Link href="target.com/redcard">target.com/redcard</Link>{" "}
+        using React, TypeScript, Next.js, React Query, Styled Components, and
+        target.com’s UI library. <br />
+        <br />
+        Developed an Electron app for paying off RedCard balance in store at the
+        registers in any Target. Built with React, TypeScript, React Query. Test
+        automation with Jest, React Testing Library, and Cypress. CI/CD with
+        Vela. Emphasis on resilience to issues with register device hardware
+        (card reader, scanner, printer, cash drawer) since it is taking payment
+        and critical for guest experience with the RedCard.
+      </>
+    ),
   },
   {
-    name: "Target",
+    name: "Target – LaunchPad",
+    title: "Sr. Software Engineer",
+    duration: "SEPT 2018 - APR 2021",
+    active: false,
+    icon: "/static/images/experience/target.jpg",
+    link: "https://www.target.com",
+    description:
+      "Developed a large vendor facing web app for setting up and managing retail item data. Built with React, Redux, TypeScript, Apollo Client / Server (GraphQL), NodeJS, and CSS in JS (Emotion). Testing automation with Jest, React Testing Library, and Cypress. CI/CD with Drone.",
+  },
+  {
+    name: "Target – Enterprise Collaboration",
     title: "Software Engineer",
-    duration: "Mar 2017 - May 2018",
+    duration: "MAR 2017 - OCT 2018",
     active: false,
     icon: "/static/images/experience/target.jpg",
     link: "https://www.target.com",
@@ -22,7 +46,7 @@ export const experience = [
   {
     name: "Boogie",
     title: "Co-founder",
-    duration: "Aug 2014 - Present",
+    duration: "AUG 2014 - PRESENT",
     active: true,
     icon: "/static/images/experience/boogie.png",
     link: "https://boogie.io",
@@ -32,7 +56,7 @@ export const experience = [
   {
     name: "Visual Logic",
     title: "UX Developer",
-    duration: "Jan 2014 - Mar 2017",
+    duration: "JAN 2014 - MAR 2017",
     active: false,
     icon: "/static/images/experience/vlg.png",
     link: "https://vlgux.com",
@@ -42,7 +66,7 @@ export const experience = [
   {
     name: "Thomson Reuters",
     title: "Technology Intern",
-    duration: "Summer 2013",
+    duration: "SUMMER 2013",
     active: false,
     icon: "/static/images/experience/thomson-reuters.jpg",
     link: "https://www.thomsonreuters.com/en.html",
@@ -52,7 +76,7 @@ export const experience = [
   {
     name: "Emerson Fisher",
     title: "Web Development Intern",
-    duration: "Summer 2012",
+    duration: "SUMMER 2012",
     active: false,
     icon: "/static/images/experience/emerson.jpg",
     link: "http://www.emerson.com/en-us/automation/fisher",
@@ -61,8 +85,8 @@ export const experience = [
   },
   {
     name: "Iowa State University",
-    title: "Software Engineering",
-    duration: "Aug 2010 - May 2014",
+    title: "B.S. in Software Engineering",
+    duration: "AUG 2010 - MAY 2014",
     active: false,
     icon: "/static/images/experience/iastate.jpg",
     link: "https://iastate.edu/",
