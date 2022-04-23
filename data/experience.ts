@@ -1,8 +1,19 @@
 export const experience = [
   {
     name: "Target",
-    title: "Front-End Engineer",
+    title: "Sr. Software Engineer",
     duration: "Mar 2017 - Present",
+    active: true,
+    icon: "/static/images/experience/target.jpg",
+    link: "https://www.target.com",
+    description:
+      "Develop internal web portals and reusable components using React, TypeScript, SharePoint Framework, Sass, Azure Functions, and PowerShell.  Establish development standards on an evergreen cloud platform in SharePoint Online. Collaboration with front-end engineers, a UX designer, Accessibility team, product owner, and stakeholders.",
+  },
+  {
+    name: "Target",
+    title: "Software Engineer",
+    duration: "Mar 2017 - May 2018",
+    active: false,
     icon: "/static/images/experience/target.jpg",
     link: "https://www.target.com",
     description:
@@ -12,6 +23,7 @@ export const experience = [
     name: "Boogie",
     title: "Co-founder",
     duration: "Aug 2014 - Present",
+    active: true,
     icon: "/static/images/experience/boogie.png",
     link: "https://boogie.io",
     description:
@@ -21,6 +33,7 @@ export const experience = [
     name: "Visual Logic",
     title: "UX Developer",
     duration: "Jan 2014 - Mar 2017",
+    active: false,
     icon: "/static/images/experience/vlg.png",
     link: "https://vlgux.com",
     description:
@@ -30,6 +43,7 @@ export const experience = [
     name: "Thomson Reuters",
     title: "Technology Intern",
     duration: "Summer 2013",
+    active: false,
     icon: "/static/images/experience/thomson-reuters.jpg",
     link: "https://www.thomsonreuters.com/en.html",
     description:
@@ -39,6 +53,7 @@ export const experience = [
     name: "Emerson Fisher",
     title: "Web Development Intern",
     duration: "Summer 2012",
+    active: false,
     icon: "/static/images/experience/emerson.jpg",
     link: "http://www.emerson.com/en-us/automation/fisher",
     description:
@@ -48,6 +63,7 @@ export const experience = [
     name: "Iowa State University",
     title: "Software Engineering",
     duration: "Aug 2010 - May 2014",
+    active: false,
     icon: "/static/images/experience/iastate.jpg",
     link: "https://iastate.edu/",
     bullets: [
