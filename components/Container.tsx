@@ -12,7 +12,7 @@ export default function Container({ children, ...customMeta }) {
   };
 
   return (
-    <div className="container">
+    <div className="container w-screen">
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />

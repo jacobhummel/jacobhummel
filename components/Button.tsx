@@ -7,7 +7,7 @@ interface Props {
 }
 
 export default function Button({ href, className, children }: Props) {
-  const btnClass = `bg-transparent hover:bg-white text-white font-semibold hover:text-black py-2 px-4 border border-white hover:border-transparent rounded ${className}`;
+  const btnClass = `text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none ${className}`;
 
   if (href) {
     return (

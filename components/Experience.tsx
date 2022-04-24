@@ -4,8 +4,8 @@ import Link from "./Link";
 
 export default function Experience() {
   return (
-    <div className="w-screen px-8">
-      <div className="max-w-screen-lg mx-auto px-8 py-16 sm:py-32">
+    <section id="experience" className="w-screen px-8">
+      <div className="max-w-screen-lg mx-auto px-8 pt-16 sm:pt-32 -mb-8">
         <h1 className="text-2xl md:text-3xl text-black pb-8 text-center">
           Work Experience
         </h1>
@@ -51,6 +51,6 @@ export default function Experience() {
           ))}
         </ol>
       </div>
-    </div>
+    </section>
   );
 }
