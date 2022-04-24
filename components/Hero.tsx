@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <>
       <section id="hero" className="bg-blue-800	w-screen px-8">
-        <div className="max-w-screen-lg mx-auto -mb-8 pt-16 sm:pt-32 sm:pb-16">
+        <div className="max-w-screen-lg mx-auto pt-16 sm:pt-32 pb-16">
           <div className="flex flex-col items-center sm:items-start">
             <div className="w-[150px] sm:w-[200px] relative mr-8 mb-8">
               <Image

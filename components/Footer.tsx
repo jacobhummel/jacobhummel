@@ -5,7 +5,7 @@ type Props = {};
 
 export default function Footer({}: Props) {
   return (
-    <footer className="w-screen py-16 bg-[#F6F6F6] border-t-2">
+    <footer className="w-screen p-16 bg-[#F6F6F6] border-t-2">
       <div className="md:flex md:justify-between max-w-screen-lg mx-auto">
         <div className="mb-6 md:mb-0">
           <span className="flex items-center">

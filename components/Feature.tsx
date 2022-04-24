@@ -20,8 +20,8 @@ export default function Feature({}: Props) {
         ></path>
       </svg>
       <section className="text-gray-600 bg-[#F6F6F6] body-font w-screen">
-        <div className="container px-5 -mt-32 pb-40 mx-auto flex flex-col">
-          <div className="lg:w-4/6 mx-auto">
+        <div className="container sm:-mt-16 px-5 pb-32 mx-auto flex flex-col">
+          <div className="max-w-screen-lg mx-auto">
             <div className="rounded-lg overflow-hidden">
               <Image
                 alt="content"
