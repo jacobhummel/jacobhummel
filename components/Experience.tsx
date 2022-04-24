@@ -5,7 +5,7 @@ import Link from "./Link";
 export default function Experience() {
   return (
     <section id="experience" className="w-screen px-8">
-      <div className="max-w-screen-lg mx-auto px-8 pt-16 sm:pt-32 -mb-8">
+      <div className="max-w-screen-lg mx-auto px-8 -mt-32">
         <h1 className="text-2xl md:text-3xl text-black pb-8 text-center">
           Work Experience
         </h1>
