@@ -7,7 +7,7 @@ export default function Experience() {
     <section id="experience" className="w-screen px-2 sm:px-8">
       <div className="max-w-screen-lg mx-auto px-8 sm:-mt-24 lg:-mt-32">
         <h1 className="text-2xl md:text-3xl text-black pb-8 text-center">
-          Work Experience
+          Experience
         </h1>
         <ol className="relative border-l pl-6 border-gray-200 dark:border-gray-700">
           {experience.map((item) => (
@@ -44,6 +44,18 @@ export default function Experience() {
                     <li key={bullet} className="mt-1 text-sm list-item">
                       {bullet}
                     </li>
+                  ))}
+                </ol>
+              )}
+              {item.skills && (
+                <ol className="list-disc list-inside text-gray-500 mt-4">
+                  {item.skills.map((skill) => (
+                    <Link
+                      href={skill.link}
+                      className="px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-sm mr-1 align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease"
+                    >
+                      {skill.name}
+                    </Link>
                   ))}
                 </ol>
               )}

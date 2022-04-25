@@ -1,4 +1,5 @@
 import Link from "components/Link";
+import { skills } from "./skills";
 
 export const experience = [
   {
@@ -10,18 +11,24 @@ export const experience = [
     link: "https://www.target.com",
     description: (
       <>
-        Rewriting <Link href="target.com/redcard">target.com/redcard</Link>{" "}
-        using React, TypeScript, Next.js, React Query, Styled Components, and
-        target.com’s UI library. <br />
+        Currently rewriting{" "}
+        <Link href="target.com/redcard">target.com/redcard</Link>. <br />
         <br />
-        Developed an Electron app for paying off RedCard balance in store at the
-        registers in any Target. Built with React, TypeScript, React Query. Test
-        automation with Jest, React Testing Library, and Cypress. CI/CD with
-        Vela. Emphasis on resilience to issues with register device hardware
-        (card reader, scanner, printer, cash drawer) since it is taking payment
-        and critical for guest experience with the RedCard.
+        Developed an in store Electron app used to pay RedCard (Target Credit
+        Card) balance. App interacted with register peripherals to identify
+        guest, process payment using all valid tenders, and generate and print
+        receipts.
       </>
     ),
+    skills: [
+      skills.React,
+      skills.TypeScript,
+      skills.NextJS,
+      skills.ReactQuery,
+      skills.Jest,
+      skills.Cypress,
+      skills.Vela,
+    ],
   },
   {
     name: "Target – LaunchPad",
@@ -32,6 +39,15 @@ export const experience = [
     link: "https://www.target.com",
     description:
       "Developed a large vendor facing web app for setting up and managing retail item data. Built with React, Redux, TypeScript, Apollo Client / Server (GraphQL), NodeJS, and CSS in JS (Emotion). Testing automation with Jest, React Testing Library, and Cypress. CI/CD with Drone.",
+    skills: [
+      skills.React,
+      skills.TypeScript,
+      skills.NextJS,
+      skills.ReactQuery,
+      skills.Jest,
+      skills.Cypress,
+      skills.Vela,
+    ],
   },
   {
     name: "Target – Enterprise Collaboration",
