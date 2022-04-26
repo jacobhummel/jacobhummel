@@ -1,11 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "./Link";
-import Button from "./Button";
 
-type Props = {};
-
-export default function Feature({}: Props) {
+export default function Feature() {
   return (
     <>
       <svg
@@ -64,9 +61,9 @@ export default function Feature({}: Props) {
                   skydivers to log &amp; record their skydives. Over the years,
                   Boogie has grown from a passion project into an Android and
                   iOS app used by thousands of skydivers around the world. Two
-                  more engineers joined our team and we're currently working on
-                  paid features, a web app, and converting our React Native app
-                  to Expo.
+                  more engineers joined our team and we&apos;re currently
+                  working on paid features, a web app, and converting our React
+                  Native app to Expo.
                 </p>
                 <div className="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
                   <a
