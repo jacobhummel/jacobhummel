@@ -48,23 +48,29 @@ export default function Feature({}: Props) {
                   </h2>
                   <div className="w-12 h-1 bg-blue-600 rounded mt-2 mb-4"></div>
                   <p className="text-base">Skydiving Logbook app</p>
-                  <Link href="https://boogie.io">boogie.io</Link>
+                  <Link href="https://boogie.io" className="underline">
+                    boogie.io
+                  </Link>
                 </div>
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                 <p className="leading-relaxed text-lg mb-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Maecenas non dictum metus. Fusce mollis varius ligula.
-                  Phasellus volutpat, orci eu ornare imperdiet, dui quam
-                  tincidunt odio, ac pharetra enim sem ut enim. Fusce gravida
-                  est vitae erat molestie, ut molestie lacus facilisis.
-                  Phasellus volutpat, orci eu ornare imperdiet, dui quam
-                  tincidunt odio, ac pharetra enim sem ut enim. Fusce gravida
-                  est vitae erat molestie, ut molestie lacus facilisis.
+                  Boogie started as an idea from my coworker, Jason, at my first
+                  job. Jason is a skydiver, product designer, and a bit of a
+                  thrillseeker. He was frustrated by the lack of software
+                  supporting his journey and logging requirement to advance in
+                  the sport of skydiving. Together, him, myself and another
+                  engineer friend designed and built a logging app that enables
+                  skydivers to log &amp; record their skydives. Over the years,
+                  Boogie has grown from a passion project into an Android and
+                  iOS app used by thousands of skydivers around the world. Two
+                  more engineers joined our team and we're currently working on
+                  paid features, a web app, and converting our React Native app
+                  to Expo.
                 </p>
                 <div className="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
                   <a
-                    href=""
+                    href="https://play.google.com/store/apps/details?id=io.boogie.boogie"
                     className="bg-gray-200 inline-flex py-3 px-5 rounded-lg items-center hover:bg-slate-200 focus:outline-none"
                   >
                     <svg
@@ -85,7 +91,7 @@ export default function Feature({}: Props) {
                     </span>
                   </a>
                   <a
-                    href=""
+                    href="https://apps.apple.com/us/app/boogie-skydiving-logbook/id1229322427?ls=1"
                     className="bg-gray-200 inline-flex py-3 px-5 rounded-lg items-center hover:bg-slate-200 focus:outline-none"
                   >
                     <svg

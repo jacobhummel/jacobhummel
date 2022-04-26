@@ -48,16 +48,17 @@ export default function Experience() {
                 </ol>
               )}
               {item.skills && (
-                <ol className="list-disc list-inside text-gray-500 mt-4">
+                <div className="flex flex-wrap">
                   {item.skills.map((skill) => (
                     <Link
+                      key={skill.name}
                       href={skill.link}
-                      className="px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-sm mr-1 align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease"
+                      className="px-3 py-1 rounded-full text-gray-500 bg-gray-100 font-semibold text-xs mr-1 mb-1 align-center w-max cursor-pointer hover:bg-gray-300 transition duration-300 ease"
                     >
                       {skill.name}
                     </Link>
                   ))}
-                </ol>
+                </div>
               )}
             </li>
           ))}

@@ -11,6 +11,10 @@ export const skills = {
     name: "NextJS",
     link: "https://nextjs.org/",
   },
+  Electron: {
+    name: "Electron",
+    link: "https://www.electronjs.org/",
+  },
   ReactQuery: {
     name: "React Query",
     link: "https://react-query.tanstack.com/",
@@ -22,6 +26,14 @@ export const skills = {
   Jest: {
     name: "Jest",
     link: "https://jestjs.io/",
+  },
+  ReactTestingLibrary: {
+    name: "Jest + React Testing Lib",
+    link: "https://testing-library.com/docs/react-testing-library/intro/",
+  },
+  Enzyme: {
+    name: "Enzyme",
+    link: "https://enzymejs.github.io/enzyme/",
   },
   Vela: {
     name: "Vela",
@@ -76,11 +88,15 @@ export const skills = {
     link: "https://redux.js.org/",
   },
   ApolloGraphQl: {
-    name: "React Native",
-    link: "https://facebook.github.io/react-native/",
+    name: "Apollo GraphQL",
+    link: "https://www.apollographql.com/",
+  },
+  MongoDB: {
+    name: "MongoDB",
+    link: "https://www.mongodb.com/",
   },
   SharePoint: {
-    name: "SharePoint",
+    name: "SharePoint Framework",
     link: "https://docs.microsoft.com/en-us/sharepoint/dev/index",
   },
   Office365: {
@@ -122,5 +138,49 @@ export const skills = {
   NodeJS: {
     name: "NodeJS",
     link: "https://nodejs.org/en/",
+  },
+  MaterialUI: {
+    name: "Material UI",
+    link: "https://mui.com/",
+  },
+  Emotion: {
+    name: "Emotion",
+    link: "https://emotion.sh/docs/introduction",
+  },
+  StyledComponents: {
+    name: "Styled Components",
+    link: "https://styled-components.com/",
+  },
+  Drone: {
+    name: "Drone",
+    link: "https://www.drone.io/",
+  },
+  Expo: {
+    name: "Expo",
+    link: "https://expo.dev/",
+  },
+  AWS: {
+    name: "AWS",
+    link: "https://aws.amazon.com/",
+  },
+  Python: {
+    name: "Python",
+    link: "https://www.python.org/",
+  },
+  Django: {
+    name: "Django",
+    link: "https://www.djangoproject.com/",
+  },
+  jQuery: {
+    name: "jQuery",
+    link: "https://jquery.com/",
+  },
+  AngularJS: {
+    name: "AngularJS",
+    link: "https://angularjs.org/",
+  },
+  Sass: {
+    name: "Less",
+    link: "https://lesscss.org/",
   },
 };

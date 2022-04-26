@@ -16,9 +16,8 @@ export default function Hero() {
               />
             </div>
             <h1 className="text-2xl md:text-3xl text-white">
-              I&apos;m <strong>Jacob Hummel</strong>, a React/React Native
-              front-end software engineer with a UX background. Located in
-              Minneapolis, MN.
+              I&apos;m <strong className="font-semibold">Jacob Hummel</strong>,
+              a front-end software engineer with a UX background. 👋
             </h1>
           </div>
         </div>

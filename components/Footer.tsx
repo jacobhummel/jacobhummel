@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Obfuscate from "react-obfuscate";
+import Link from "./Link";
 
 type Props = {};
 
@@ -21,21 +23,25 @@ export default function Footer({}: Props) {
             </span>
           </span>
         </div>
-        <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 sm:gap-20">
           <div>
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
               Contact
             </h2>
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="mb-4">
-                <a href="https://flowbite.com" className="hover:underline">
-                  Email
-                </a>
+                <Obfuscate
+                  className="hover:underline"
+                  email="j4cobhummel@gmail.com"
+                />
               </li>
               <li>
-                <a href="https://tailwindcss.com/" className="hover:underline">
+                <Link
+                  href="https://www.linkedin.com/in/jacobhummel/"
+                  className="hover:underline"
+                >
                   LinkedIn
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -45,37 +51,20 @@ export default function Footer({}: Props) {
             </h2>
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="mb-4">
-                <a
-                  href="https://github.com/themesberg/flowbite"
+                <Link
+                  href="https://github.com/jacobhummel"
                   className="hover:underline "
                 >
                   GitHub
-                </a>
+                </Link>
               </li>
               <li className="mb-4">
-                <a
-                  href="https://github.com/themesberg/flowbite"
+                <Link
+                  href="https://twitter.com/jakehummel"
                   className="hover:underline "
                 >
                   Twitter
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-              Resources
-            </h2>
-            <ul className="text-gray-600 dark:text-gray-400">
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Terms &amp; Conditions
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
