@@ -52,18 +52,17 @@ export default function Feature() {
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                 <p className="leading-relaxed text-lg mb-4">
-                  Boogie started as an idea from my coworker, Jason, at my first
-                  job. Jason is a skydiver, product designer, and a bit of a
-                  thrillseeker. He was frustrated by the lack of software
-                  supporting his journey and logging requirement to advance in
-                  the sport of skydiving. Together, him, myself and another
-                  engineer friend designed and built a logging app that enables
-                  skydivers to log &amp; record their skydives. Over the years,
-                  Boogie has grown from a passion project into an Android and
-                  iOS app used by thousands of skydivers around the world. Two
-                  more engineers joined our team and we&apos;re currently
-                  working on paid features, a web app, and converting our React
-                  Native app to Expo.
+                  Boogie started as an idea by my friend Jason in 2014. Jason is
+                  a skydiver, product designer, and a bit of a thrillseeker. He
+                  was frustrated by the lack of software supporting his journey
+                  and logging requirement to advance in the sport of skydiving.
+                  Together, him, myself and another engineer friend designed and
+                  built a logging app that enables skydivers to log &amp; record
+                  their skydives. Over the years, Boogie has grown from a
+                  passion project into an Android and iOS app used by thousands
+                  of skydivers around the world. Two more engineers joined our
+                  team and we&apos;re currently working on paid features, a web
+                  app, and converting our React Native app to Expo.
                 </p>
                 <div className="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
                   <a

@@ -46,12 +46,11 @@ export const experience = [
     description: (
       <>
         Developed a large vendor facing web app for setting up and managing
-        retail item data. Items have up to hundreds of complex internal (details
-        needed for business) and external attributes (ones a guest could see)
-        with business rules pertaining to each, so the UI had to adapt and be
-        highly flexible &amp; performant to ensure it can handle dynamic
-        validation + side effects while editing hundreds of unique items at a
-        time. <br />
+        retail item data. Items have up to hundreds of complex internal and
+        external attributes with business rules tied to each. As a result, the
+        UI had to adapt and be highly flexible &amp; performant to ensure it can
+        handle dynamic validation + side effects if editing hundreds of items at
+        a time. <br />
         <br />
         Check out{" "}
         <Link
