@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Obfuscate from "react-obfuscate";
 import Link from "./Link";
 
 type Props = {};
@@ -30,10 +29,12 @@ export default function Footer({}: Props) {
             </h2>
             <ul className="text-gray-600">
               <li className="mb-4">
-                <Obfuscate
+                <Link
+                  href="mailto:j4cobhummel@gmail.com"
                   className="hover:underline"
-                  email="j4cobhummel@gmail.com"
-                />
+                >
+                  j4cobhummel@gmail.com
+                </Link>
               </li>
               <li>
                 <Link
