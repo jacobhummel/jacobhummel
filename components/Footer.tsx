@@ -7,7 +7,7 @@ type Props = {};
 
 export default function Footer({}: Props) {
   return (
-    <footer className="w-screen p-16 bg-[#F6F6F6] border-t-2">
+    <footer className="w-screen p-16 bg-[#F6F6F6] border-t-gray-200 border-t">
       <div className="md:flex md:justify-between max-w-screen-lg mx-auto">
         <div className="mb-6 md:mb-0">
           <span className="flex items-center">
@@ -18,17 +18,17 @@ export default function Footer({}: Props) {
               src="/avatar.jpg"
               className="rounded-full h-8"
             />
-            <span className="self-center ml-4 text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="self-center ml-4 text-2xl font-semibold whitespace-nowrap">
               Jacob Hummel
             </span>
           </span>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 sm:gap-20">
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
               Contact
             </h2>
-            <ul className="text-gray-600 dark:text-gray-400">
+            <ul className="text-gray-600">
               <li className="mb-4">
                 <Obfuscate
                   className="hover:underline"
@@ -46,10 +46,10 @@ export default function Footer({}: Props) {
             </ul>
           </div>
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
               Follow me
             </h2>
-            <ul className="text-gray-600 dark:text-gray-400">
+            <ul className="text-gray-600">
               <li className="mb-4">
                 <Link
                   href="https://github.com/jacobhummel"

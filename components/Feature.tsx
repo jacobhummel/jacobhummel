@@ -21,7 +21,7 @@ export default function Feature() {
           <div className="max-w-screen-lg mx-auto">
             <div className="rounded-lg overflow-hidden">
               <Image
-                alt="content"
+                alt="Boogie Blog"
                 className="object-cover object-center h-full w-full"
                 src="/static/images/features/boogie-blog.jpg"
                 width={1024}
@@ -32,8 +32,8 @@ export default function Feature() {
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                 <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
                   <Image
-                    alt="content"
-                    className="w-10 h-10 rounded-full"
+                    alt="Boogie Logo"
+                    className="w-20 h-20 rounded-full"
                     src="/static/images/experience/boogie.png"
                     width={200}
                     height={200}
@@ -52,17 +52,13 @@ export default function Feature() {
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                 <p className="leading-relaxed text-lg mb-4">
-                  Boogie started as an idea by my friend Jason in 2014. Jason is
-                  a skydiver, product designer, and a bit of a thrillseeker. He
-                  was frustrated by the lack of software supporting his journey
-                  and logging requirement to advance in the sport of skydiving.
-                  Together, him, myself and another engineer friend designed and
-                  built a logging app that enables skydivers to log &amp; record
-                  their skydives. Over the years, Boogie has grown from a
-                  passion project into an Android and iOS app used by thousands
-                  of skydivers around the world. Two more engineers joined our
-                  team and we&apos;re currently working on paid features, a web
-                  app, and converting our React Native app to Expo.
+                  Co-founded and developed Boogie, a skydiving logbook app built
+                  with React Native, Expo, and Django, used by thousands of
+                  skydivers worldwide. The app enables users to record skydives
+                  manually or via barometer-based tracking. Originally launched
+                  as a native Android app at an Iowa State hackathon in 2014,
+                  Boogie was rewritten in 2017 using React Native to support
+                  both Android and iOS platforms.
                 </p>
                 <div className="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
                   <a

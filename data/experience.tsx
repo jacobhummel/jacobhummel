@@ -3,10 +3,63 @@ import { skills } from "./skills";
 
 export const experience = [
   {
+    name: "Revel Transit",
+    title: "Staff Software Engineer",
+    duration: "MAY 2024 - PRESENT",
+    active: true,
+    icon: "/static/images/experience/revel.jpeg",
+    link: "https://gorevel.com/",
+    description: (
+      <>
+        Leading frontend engineering practice, optimizing system health and
+        strategy, hiring, and mentoring engineers. Implemented CI/CD, automated
+        testing, DataDog RUM for observability, and automated dependency
+        upgrades to enhance development workflows. Continue to lead development
+        and maintenance of Revel&apos;s driver and internal web applications.
+      </>
+    ),
+    skills: [
+      skills.React,
+      skills.ReactNative,
+      skills.TypeScript,
+      skills.Expo,
+      skills.NextJS,
+      skills.ApolloGraphQl,
+      skills.Python,
+      skills.Django,
+    ],
+  },
+  {
+    name: "Revel Transit",
+    title: "Senior Software Engineer",
+    duration: "JUNE 2022 - MAY 2024",
+    active: false,
+    icon: "/static/images/experience/revel.jpeg",
+    link: "https://gorevel.com/",
+    description: (
+      <>
+        Spearheaded the Revel Driver app development (React Native + Expo) from
+        inception to scale, deployed on App Store, Google Play, and web, used by
+        6,000+ NYC TLC drivers for 5M+ rides. Also developed internal web apps
+        (React, Next.js) for operations, managing driver and rental business.
+      </>
+    ),
+    skills: [
+      skills.React,
+      skills.ReactNative,
+      skills.TypeScript,
+      skills.Expo,
+      skills.NextJS,
+      skills.ApolloGraphQl,
+      skills.Python,
+      skills.Django,
+    ],
+  },
+  {
     name: "Target – Apply for RedCard",
     title: "Sr. Software Engineer",
-    duration: "APR 2021 - PRESENT",
-    active: true,
+    duration: "APR 2021 - JUNE 2022",
+    active: false,
     icon: "/static/images/experience/target.jpg",
     link: "https://www.target.com",
     description: (
@@ -27,13 +80,9 @@ export const experience = [
       skills.React,
       skills.TypeScript,
       skills.NextJS,
-      skills.ReactQuery,
       skills.Electron,
-      skills.Emotion,
-      skills.StyledComponents,
-      skills.ReactTestingLibrary,
       skills.Cypress,
-      skills.Vela,
+      skills.StyledComponents,
     ],
   },
   {
@@ -68,11 +117,7 @@ export const experience = [
       skills.ApolloGraphQl,
       skills.MongoDB,
       skills.MaterialUI,
-      skills.Emotion,
-      skills.ReactTestingLibrary,
       skills.Cypress,
-      skills.Vela,
-      skills.Drone,
     ],
   },
   {
@@ -91,28 +136,27 @@ export const experience = [
       skills.SharePoint,
       skills.AzureFunctions,
       skills.PowerShell,
-      skills.OfficeUIFabric,
     ],
   },
-  {
-    name: "Boogie",
-    title: "Software Engineer / Co-founder",
-    duration: "AUG 2014 - PRESENT",
-    active: true,
-    icon: "/static/images/experience/boogie.png",
-    link: "https://boogie.io",
-    description:
-      "Develop a React Native skydiving logbook app used by thousands of skydivers around the world. App enables users to record their skydives using their phone's altimeter or manually. Collaborate remotely with developers and a designer. Launched the first version in native Android in 2014. Re-wrote for iOS and Android using React Native in 2017.",
-    skills: [
-      skills.React,
-      skills.TypeScript,
-      skills.ReactNative,
-      skills.Expo,
-      skills.AWS,
-      skills.Python,
-      skills.Django,
-    ],
-  },
+  // {
+  //   name: "Boogie",
+  //   title: "Software Engineer / Co-founder",
+  //   duration: "AUG 2014 - PRESENT",
+  //   active: true,
+  //   icon: "/static/images/experience/boogie.png",
+  //   link: "https://boogie.io",
+  //   description:
+  //     "Develop a React Native skydiving logbook app used by thousands of skydivers around the world. App enables users to record their skydives using their phone's altimeter or manually. Collaborate remotely with developers and a designer. Launched the first version in native Android in 2014. Re-wrote for iOS and Android using React Native in 2017.",
+  //   skills: [
+  //     skills.React,
+  //     skills.TypeScript,
+  //     skills.ReactNative,
+  //     skills.Expo,
+  //     skills.AWS,
+  //     skills.Python,
+  //     skills.Django,
+  //   ],
+  // },
   {
     name: "Visual Logic",
     title: "UX Developer",
@@ -129,28 +173,29 @@ export const experience = [
       skills.jQuery,
       skills.CSS3,
       skills.HTML5,
+      skills.Android,
     ],
   },
-  // {
-  //   name: "Thomson Reuters",
-  //   title: "Technology Intern",
-  //   duration: "SUMMER 2013",
-  //   active: false,
-  //   icon: "/static/images/experience/thomson-reuters.jpg",
-  //   link: "https://www.thomsonreuters.com/en.html",
-  //   description:
-  //     "Full-Stack web developer using the Spring MVC Framework. Added features and improvements to an internal business application.",
-  // },
-  // {
-  //   name: "Emerson Fisher",
-  //   title: "Web Development Intern",
-  //   duration: "SUMMER 2012",
-  //   active: false,
-  //   icon: "/static/images/experience/emerson.jpg",
-  //   link: "http://www.emerson.com/en-us/automation/fisher",
-  //   description:
-  //     "Full-Stack web developer using ASP.NET Web Forms. Rewrote two business critical apps for speed and usability.",
-  // },
+  {
+    name: "Thomson Reuters",
+    title: "Technology Intern",
+    duration: "SUMMER 2013",
+    active: false,
+    icon: "/static/images/experience/thomson-reuters.jpg",
+    link: "https://www.thomsonreuters.com/en.html",
+    description:
+      "Full-Stack web developer using the Spring MVC Framework. Added features and improvements to an internal business application.",
+  },
+  {
+    name: "Emerson Fisher",
+    title: "Web Development Intern",
+    duration: "SUMMER 2012",
+    active: false,
+    icon: "/static/images/experience/emerson.jpg",
+    link: "http://www.emerson.com/en-us/automation/fisher",
+    description:
+      "Full-Stack web developer using ASP.NET Web Forms. Rewrote two business critical apps for speed and usability.",
+  },
   {
     name: "Iowa State University",
     title: "B.S. in Software Engineering",
@@ -159,7 +204,6 @@ export const experience = [
     icon: "/static/images/experience/iastate.jpg",
     link: "https://iastate.edu/",
     bullets: [
-      "3.46 GPA",
       "Co-founder of HackISU",
       "Webmaster for Computer Science Club",
       "Teaching Assistant for Intro to Object Oriented Programming",

@@ -9,7 +9,7 @@ export default function Experience() {
         <h1 className="text-2xl md:text-3xl text-black pb-8 text-center">
           Experience
         </h1>
-        <ol className="relative border-l pl-6 border-gray-200 dark:border-gray-700">
+        <ol className="relative border-l pl-6 border-gray-200">
           {experience.map((item) => (
             <li key={item.name} className="mb-10 ml-6">
               <span className="flex absolute -left-4 justify-center items-center w-8 h-8">
@@ -30,11 +30,11 @@ export default function Experience() {
                   </span>
                 )}
               </h3>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400">
                 {item.duration}
               </time>
               {item.description && (
-                <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                <p className="mb-4 text-base font-normal text-gray-500">
                   {item.description}
                 </p>
               )}

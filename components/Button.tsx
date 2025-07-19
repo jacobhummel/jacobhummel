@@ -11,8 +11,8 @@ export default function Button({ href, className, children }: Props) {
 
   if (href) {
     return (
-      <Link href={href}>
-        <a className={btnClass}>{children}</a>
+      <Link href={href} className={btnClass} role="button">
+        {children}
       </Link>
     );
   }

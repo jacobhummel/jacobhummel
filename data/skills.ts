@@ -16,8 +16,8 @@ export const skills = {
     link: "https://www.electronjs.org/",
   },
   ReactQuery: {
-    name: "React Query",
-    link: "https://react-query.tanstack.com/",
+    name: "Tanstack Query",
+    link: "https://tanstack.com/query/latest",
   },
   Cypress: {
     name: "Cypress",
@@ -77,11 +77,11 @@ export const skills = {
   },
   React: {
     name: "React",
-    link: "https://reactjs.org/",
+    link: "https://react.dev/",
   },
   ReactNative: {
     name: "React Native",
-    link: "https://facebook.github.io/react-native/",
+    link: "https://reactnative.dev/",
   },
   Redux: {
     name: "Redux",
@@ -182,5 +182,33 @@ export const skills = {
   Sass: {
     name: "Less",
     link: "https://lesscss.org/",
+  },
+  Datadog: {
+    name: "Datadog",
+    link: "https://www.datadoghq.com/",
+  },
+  Detox: {
+    name: "Detox",
+    link: "https://wix.github.io/Detox/",
+  },
+  Maestro: {
+    name: "Maestro",
+    link: "https://docs.maestro.dev/",
+  },
+  Figma: {
+    name: "Figma",
+    link: "https://www.figma.com/",
+  },
+  Gluestack: {
+    name: "Gluestack",
+    link: "https://gluestack.io/",
+  },
+  Mantine: {
+    name: "Mantine",
+    link: "https://mantine.dev/",
+  },
+  GithubActions: {
+    name: "GitHub Actions",
+    link: "https://docs.github.com/en/actions",
   },
 };
