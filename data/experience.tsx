@@ -64,16 +64,14 @@ export const experience = [
     link: "https://www.target.com",
     description: (
       <>
-        Currently rewriting{" "}
+        Rewrote{" "}
         <Link href="https://target.com/redcard" className="underline">
           target.com/redcard
-        </Link>
-        . <br />
-        <br />
-        Developed in-store Electron app used to pay RedCard (Target Credit Card)
-        balance. App interacts with register peripherals to lookup guest's
-        account, process payment, generate and print receipt. Used by thousands
-        of guests daily at 1800+ Target stores.
+        </Link>{" "}
+        micro-frontend (React, TypeScript, Next.js, React Query). Developed
+        resilient Electron app for in-store RedCard payments (React, TypeScript,
+        React Query). Implemented Jest, React Testing Library, and Cypress with
+        Vela CI/CD.
       </>
     ),
     skills: [
@@ -94,12 +92,9 @@ export const experience = [
     link: "https://www.target.com",
     description: (
       <>
-        Developed a large vendor facing web app for setting up and managing
-        retail item data. Items have up to hundreds of complex internal and
-        external attributes with business rules tied to each. As a result, the
-        UI had to adapt and be highly flexible &amp; performant to ensure it can
-        handle dynamic validation + side effects if editing hundreds of items at
-        a time. <br />
+        Built vendor web app for retail data management (React, Redux,
+        TypeScript, Apollo, NodeJS). Automated testing with Jest, React Testing
+        Library, Cypress, and Drone CI/CD. <br />
         <br />
         Check out{" "}
         <Link

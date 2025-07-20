@@ -9,17 +9,16 @@ export default function Footer({}: Props) {
     <footer className="w-screen p-16 bg-[#F6F6F6] border-t-gray-200 border-t">
       <div className="md:flex md:justify-between max-w-screen-lg mx-auto">
         <div className="mb-6 md:mb-0">
-          <span className="flex items-center">
+          <span className="flex gap-1 flex-col">
             <Image
               alt="Jacob Hummel"
               height={50}
               width={50}
               src="/avatar.jpg"
-              className="rounded-full h-8"
+              className="rounded-full w-12 h-12"
             />
-            <span className="self-center ml-4 text-2xl font-semibold whitespace-nowrap">
-              Jacob Hummel
-            </span>
+            <p className="text-xl whitespace-nowrap">Jacob Hummel</p>
+            <p className="text-sm text-gray-500">Software Engineer</p>
           </span>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 sm:gap-20">

@@ -18,7 +18,7 @@ export default function Experience() {
                   width={32}
                   height={32}
                   alt={`${item.name} logo`}
-                  className="rounded-full"
+                  className="rounded-full w-32"
                 />
               </span>
               <h3 className="flex flex-col sm:flex-row sm:items-center mb-1 text-lg text-gray-900">
