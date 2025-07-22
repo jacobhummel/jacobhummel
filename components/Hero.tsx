@@ -29,7 +29,7 @@ export default function Hero() {
         viewBox="0 0 1440 320"
       >
         <path
-          fill="#1D40AF"
+          fill="#193cb8"
           fillOpacity="1"
           d="M0,96L1440,32L1440,0L0,0Z"
         ></path>

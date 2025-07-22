@@ -15,7 +15,7 @@ export default function Footer({}: Props) {
               height={50}
               width={50}
               src="/avatar.jpg"
-              className="rounded-full w-12 h-12"
+              className="rounded-full w-16 h-16"
             />
             <p className="text-xl whitespace-nowrap">Jacob Hummel</p>
             <p className="text-sm text-gray-500">Software Engineer</p>
